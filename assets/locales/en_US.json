@@ -1,0 +1,17 @@
+{
+    "error": {
+        "network": "Network error",
+        "auth": "Wrong login / password",
+        "emptyDataSet": "No data has been retrieved",
+        "notFound": "Page not found",
+        "needInput": "Fill this field"
+    },
+    "contextButton":{
+        "cut": "Cut",
+        "copy": "Copy",
+        "paste": "Paste",
+        "selectAll": "Select all",
+        "delete": "Delete",
+        "custom": ""
+    }
+}

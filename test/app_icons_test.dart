@@ -1,0 +1,61 @@
+import 'dart:io';
+
+import 'package:flutter_test/flutter_test.dart';
+import 'package:rns_app/resources/resources.dart';
+
+void main() {
+  test('app_icons assets test', () {
+    expect(File(AppIcons.appbarBurger).existsSync(), true);
+    expect(File(AppIcons.appbarLogo).existsSync(), true);
+    expect(File(AppIcons.arrowUpRight).existsSync(), true);
+    expect(File(AppIcons.attachFile).existsSync(), true);
+    expect(File(AppIcons.bookmarks).existsSync(), true);
+    expect(File(AppIcons.chevronDownExpandable).existsSync(), true);
+    expect(File(AppIcons.chevronLeft).existsSync(), true);
+    expect(File(AppIcons.clear).existsSync(), true);
+    expect(File(AppIcons.dateRange).existsSync(), true);
+    expect(File(AppIcons.dateSingle).existsSync(), true);
+    expect(File(AppIcons.delete).existsSync(), true);
+    expect(File(AppIcons.doc).existsSync(), true);
+    expect(File(AppIcons.editNote).existsSync(), true);
+    expect(File(AppIcons.emailSide).existsSync(), true);
+    expect(File(AppIcons.email).existsSync(), true);
+    expect(File(AppIcons.emptyDataPenguin).existsSync(), true);
+    expect(File(AppIcons.exitToApp).existsSync(), true);
+    expect(File(AppIcons.expandMore).existsSync(), true);
+    expect(File(AppIcons.flashOn).existsSync(), true);
+    expect(File(AppIcons.flipToFront).existsSync(), true);
+    expect(File(AppIcons.home).existsSync(), true);
+    expect(File(AppIcons.infoIcon).existsSync(), true);
+    expect(File(AppIcons.insertDriveFile).existsSync(), true);
+    expect(File(AppIcons.jpgFile).existsSync(), true);
+    expect(File(AppIcons.layers).existsSync(), true);
+    expect(File(AppIcons.localPostOffice).existsSync(), true);
+    expect(File(AppIcons.logo).existsSync(), true);
+    expect(File(AppIcons.markunread).existsSync(), true);
+    expect(File(AppIcons.moreVert).existsSync(), true);
+    expect(File(AppIcons.moveToInbox).existsSync(), true);
+    expect(File(AppIcons.otf).existsSync(), true);
+    expect(File(AppIcons.pdf).existsSync(), true);
+    expect(File(AppIcons.png).existsSync(), true);
+    expect(File(AppIcons.point).existsSync(), true);
+    expect(File(AppIcons.ppt).existsSync(), true);
+    expect(File(AppIcons.queryBuilder).existsSync(), true);
+    expect(File(AppIcons.questionAnswer).existsSync(), true);
+    expect(File(AppIcons.radioButtonChecked).existsSync(), true);
+    expect(File(AppIcons.radioButtonUnchecked).existsSync(), true);
+    expect(File(AppIcons.saveAlt).existsSync(), true);
+    expect(File(AppIcons.schedule).existsSync(), true);
+    expect(File(AppIcons.settings).existsSync(), true);
+    expect(File(AppIcons.successIcon).existsSync(), true);
+    expect(File(AppIcons.supervisedUserCircle).existsSync(), true);
+    expect(File(AppIcons.svgFile).existsSync(), true);
+    expect(File(AppIcons.telegram).existsSync(), true);
+    expect(File(AppIcons.tune).existsSync(), true);
+    expect(File(AppIcons.txt).existsSync(), true);
+    expect(File(AppIcons.userSampleIcon).existsSync(), true);
+    expect(File(AppIcons.vk).existsSync(), true);
+    expect(File(AppIcons.warninigIcon).existsSync(), true);
+    expect(File(AppIcons.word).existsSync(), true);
+  });
+}

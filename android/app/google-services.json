@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "175090505890",
+    "project_id": "rnsweb",
+    "storage_bucket": "rnsweb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175090505890:android:e42d73c03f4a9707869ffb",
+        "android_client_info": {
+          "package_name": "ru.runetsoft.rnswebmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVr6QCatqHkCJk-lICxk7w0Fyc1-TeG9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude: [build/**]
+
+linter:
+  rules:
+    avoid_print: false
+    prefer_single_quotes: true
+    always_use_package_imports: true
+    avoid_empty_else: true
+    avoid_web_libraries_in_flutter: true
+    avoid_unnecessary_containers: true
+    constant_identifier_names: false
+    no_leading_underscores_for_local_identifiers: false
